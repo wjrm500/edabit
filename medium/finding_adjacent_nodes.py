@@ -1,6 +1,9 @@
 # https://edabit.com/challenge/3DAkZHv2LZjgqWbvW
 
-def adjacent(adjacency_matrix: list[list[int]], node_pair: tuple[int]) -> bool:
+def adjacent(
+    adjacency_matrix: list[list[int]],
+    node_pair: tuple[int]
+) -> bool:
     return adjacency_matrix[node_pair[0]][node_pair[1]]
 
 def test():
